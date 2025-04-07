@@ -2,7 +2,7 @@
 title Max Premium Pro - Updater
 
 :: Set the version you want to download (should be updated manually or dynamically)
-set NEW_VERSION=v1.0.2
+set NEW_VERSION=1.0.2
 
 echo Closing current application...
 taskkill /IM "Max Premium Pro.exe" /F >nul 2>&1
