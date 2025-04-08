@@ -10,7 +10,7 @@ timeout /t 2 /nobreak >nul
 
 :: Download new version using dynamic versioning
 echo Downloading new version %NEW_VERSION%...
-powershell -Command "(New-Object System.Net.WebClient).DownloadFile('https://github.com/VannyLD/MAXPREMIUMPRO/releases/download/v1.0.1/Max.Premium.Pro.exe', 'Max Premium Pro.exe')"
+powershell -Command "(New-Object System.Net.WebClient).DownloadFile('https://github.com/VannyLD/MAXPREMIUMPRO/releases/download/v1.0.2/Max.Premium.Pro.exe', 'Max Premium Pro.exe')"
 
 if exist "Max Premium Pro.exe" (
     echo Starting new version...
